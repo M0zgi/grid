@@ -205,7 +205,7 @@ h1{
 }
 .button-case{    
     grid-column: 1/5; 
-    padding: 20px 20px 50px;   
+    padding: 10px 50px;   
 }
 .container{
     max-width: 1200px;
@@ -235,7 +235,7 @@ h1{
 } 
 .ready-left{
 	border-right: 1px solid #dadada;
-    font-size: 28px;
+    font-size: 18px;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-right: 60px;
@@ -246,4 +246,63 @@ h1{
 }
 .ready-right{
 	padding-left: 40px;
+}
+.formsection{
+    padding: 30px 0;
+    background-color: #293A43;
+    
+}
+.formsection input{
+    background-color: #a3c9db;
+}
+.formsection form{
+    grid-gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+}
+.formsection .authn-btn{
+    font-size: 17px;
+    padding: 12px;
+    margin: 0 0 0 1px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input, textarea{
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    outline: none;
+    transition: background-color .25s ease;
+}
+textarea:focus{
+    background-color: #EDEDED;
+}
+input:focus{
+    background-color: #EDEDED;
+}
+input, textarea::placeholder{
+		color: #293A43;
+}
+.main-footer{
+    padding: 60px 0;
+    background-color: #28353c;
+    text-align: center;
+    color: #4E5355
+}
+.footer-logo{
+    font-family: intro-grid, sans-serif;
+    font-size: 22px;
+}
+.footer-copy{
+    font-size: 20px;
+    font-weight: bold;
+    color: #494D50;
+	margin-top: 20px
+}
+
+@media only screen and (max-width : 768px){
+    
 }
